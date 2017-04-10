@@ -75,9 +75,6 @@ map <C-n> :NERDTreeToggle<CR>
 map <F3> :NERDTreeFind<CR>
 let NERDTreeShowHidden = 1
 
-" UltiSnips
-let g:UltiSnipsExpandTrigger = '<c-f>'
-
 " Airline
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
