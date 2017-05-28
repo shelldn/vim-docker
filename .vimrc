@@ -14,6 +14,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'marijnh/tern_for_vim'
+" Plugin 'OmniSharp/omnisharp-vim'
 " Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
@@ -34,6 +35,7 @@ call vundle#end()
 syntax on
 filetype plugin indent on
 
+set encoding=utf-8
 set t_Co=256
 set backupcopy=yes
 set noswapfile

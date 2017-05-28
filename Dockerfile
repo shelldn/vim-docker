@@ -5,7 +5,7 @@ RUN mkdir -p /root/.vim/bundle
 
 RUN \
   apt-get update && \
-  apt-get install -y vim git
+  apt-get install -y git vim-nox-py2
 
 ADD .vimrc /root/.vimrc
 
