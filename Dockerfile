@@ -14,10 +14,17 @@ COPY .vimrc /root/.vimrc
 WORKDIR /root/.vim/bundle
 
 RUN \
-  git clone https://github.com/morhetz/gruvbox && \
   git clone https://github.com/scrooloose/nerdtree && \
   git clone https://github.com/ctrlpvim/ctrlp.vim && \
-  git clone https://github.com/vim-airline/vim-airline
+  git clone https://github.com/vim-airline/vim-airline && \
+  git clone https://github.com/Valloric/YouCompleteMe.git
+
+# Installing YCM
+RUN \
+  cd YouCompleteMe && \
+  git submodule update --init --recursive && \
+  apt-get install -y build-essential cmake python-dev python3-dev && \
+  ./install.py
 
 WORKDIR /src
 ENV TERM="xterm-256color"

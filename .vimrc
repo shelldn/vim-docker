@@ -8,10 +8,6 @@ set backupcopy=yes
 set noswapfile
 " set directory=~/.vim/tmp//
 
-" Gruvbox
-colorscheme gruvbox
-set background=dark
-
 " Tabs
 set expandtab
 set tabstop=2
