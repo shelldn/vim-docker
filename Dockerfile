@@ -18,6 +18,8 @@ RUN \
   git clone https://github.com/ctrlpvim/ctrlp.vim && \
   git clone https://github.com/vim-airline/vim-airline && \
   git clone https://github.com/Valloric/YouCompleteMe.git && \
+  git clone https://github.com/sirver/ultisnips && \
+  git clone https://github.com/honza/vim-snippets && \
   git clone git://github.com/jiangmiao/auto-pairs.git
 # TODO: Consider surround.vim installation
 

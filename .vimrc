@@ -27,6 +27,14 @@ map <C-n> :NERDTreeToggle<CR>
 map <F3> :NERDTreeFind<CR>
 let NERDTreeShowHidden = 1
 
+" YouCompleteMe
+let g:ycm_key_list_select_completion = ['<Down>']
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<Tab>"
+let g:UltiSnipsJumpForwardTrigger="<Tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-Tab>"
+
 " Airline
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
