@@ -21,8 +21,7 @@ RUN \
   git clone https://github.com/sirver/ultisnips && \
   git clone https://github.com/honza/vim-snippets && \
   git clone git://github.com/jiangmiao/auto-pairs.git && \
-  git clone git://github.com/tpope/vim-surround.git && \
-  git clone git://github.com/tpope/vim-fugitive.git
+  git clone git://github.com/tpope/vim-surround.git
 
 # Installing YCM
 RUN \
